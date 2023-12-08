@@ -121,7 +121,7 @@ body::-webkit-scrollbar {
 
 /* BUTTON */
 .btn {
-  background-color: #054f35;
+  background-color: #626C5E;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -134,7 +134,7 @@ body::-webkit-scrollbar {
 
 .btn:hover {
   transform: scale(1.15);
-  background-color: #D39F36;
+  background-color: #05445E;
 }
 
 .btn--contact {
@@ -185,8 +185,8 @@ body::-webkit-scrollbar {
 
 .text {
   font-size: 30px;
-  opacity: 0.8;
-  font-weight: 200;
+  opacity: 0.9;
+  font-weight: 250;
   margin-top: 11px;
   line-height: 1.1;
 }
@@ -196,7 +196,8 @@ body::-webkit-scrollbar {
   font-size: 20px;
   margin-top: 11px;
   line-height: 1.1;
-  opacity: 0.4;
+  opacity: 0.6;
+  color:#FBFCFA;
 }
 
 /* WORK */
@@ -249,14 +250,14 @@ body::-webkit-scrollbar {
 /* GRID */
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 3fr 3fr;
   grid-template-rows: 333px 119px 325px;
   gap: 10px;
   position: relative;
 }
 
 .project {
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
   position: relative;
   transition: all 0.4s;
@@ -393,8 +394,8 @@ body::-webkit-scrollbar {
 }
 
 .link-img {
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
 }
 
 /* FOOTER */
@@ -403,7 +404,7 @@ body::-webkit-scrollbar {
   margin: 0 auto;
   padding: 20px 0 26px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  color: rgba(255, 255, 255, 0.4);
+  color: #626C5E;
   display: flex;
 }
 
