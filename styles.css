@@ -79,9 +79,9 @@ html {
 }
 
 body {
-  background-color: #000;
+  background-color: #FBFCFA;
   font-family: 'Inter', sans-serif;
-  color: #fff;
+  color: #FBFCFA;
   position: relative;
   overflow-x: hidden;
 
@@ -94,11 +94,11 @@ body::-webkit-scrollbar {
 
 .color {
   height: 1000px;
-  width: 1000px;
-  background-image: radial-gradient(closest-side, rgba(255, 230, 0, 0.21), #000);
+  width: 1300px;
+  background-image: radial-gradient(closest-side, #09814A , #09814A);
   position: absolute;
-  top: -570px;
-  left: 15%;
+  top: -600px;
+  left: 0%;
   z-index: -1;
 }
 
@@ -113,7 +113,7 @@ body::-webkit-scrollbar {
 }
 
 .logo {
-  width: 35px;
+  width: 45px;
   border-radius: 50%;
   object-fit: cover;
   animation: fade-down 0.5s 0.4s backwards;
@@ -121,11 +121,11 @@ body::-webkit-scrollbar {
 
 /* BUTTON */
 .btn {
-  background-color: #fff;
+  background-color: #054f35;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
-  color: #000;
+  color: #f7f6f6;
   letter-spacing: 0.5px;
   padding: 10px 20px;
   border-radius: 5000px;
@@ -134,6 +134,7 @@ body::-webkit-scrollbar {
 
 .btn:hover {
   transform: scale(1.15);
+  background-color: #D39F36;
 }
 
 .btn--contact {
@@ -168,7 +169,7 @@ body::-webkit-scrollbar {
 }
 
 .first-heading {
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 600;
   opacity: 0.94;
   display: flex;
@@ -183,15 +184,19 @@ body::-webkit-scrollbar {
 }
 
 .text {
-  font-size: 40px;
-  opacity: 0.9;
-  font-weight: 300;
+  font-size: 30px;
+  opacity: 0.8;
+  font-weight: 200;
   margin-top: 11px;
   line-height: 1.1;
 }
 
 .text--second {
   display: block;
+  font-size: 20px;
+  margin-top: 11px;
+  line-height: 1.1;
+  opacity: 0.4;
 }
 
 /* WORK */
@@ -246,7 +251,7 @@ body::-webkit-scrollbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 333px 119px 325px;
-  gap: 25px;
+  gap: 10px;
   position: relative;
 }
 
